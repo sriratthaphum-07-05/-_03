@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+:lang(th) {
+    font-family: 'Kanit', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    color: #082B63;
+}
+
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #1265df;
+    padding-bottom: 0;
+    color: #1265df;
+}
+
+.header {
+    background: #071b3b url(../img/gym-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.header_area {
+    padding-top: 105px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.hero_button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero_button:hover {
+    background: #fff;
+    color: #082B63;
+}
+
+.info1 {
+    width: 100%;
+    height: 400px;
+}
+
+.info1_area {
+    color: #333333;
+}
+
+.info1_area img {
+    margin-top: 80px;
+    float: left;
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.info1_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 125px;
+}
+
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+    color: #082B63;
+}
+
+.info1_text p {
+    line-height: 1.8;
+}
+
+.info1_text span:first-child {
+    color: #1265df;
+    font-weight: bold;
+}
+
+.info2 {
+    width: 100%;
+    height: 350px;
+    background-color: #082B63;
+    background-image: url(../img/gym-services.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.info2_area {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.info2_text {
+    text-align: center;
+    width: 460px;
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.info2_area h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.info2_text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 35px 0;
+}
+
+.contact_area {
+    overflow: auto;
+}
+
+.contact_info {
+    float: left;
+    width: 330px;
+    border-right: 2px solid #082B63;
+    min-height: 270px;
+}
+
+.contact_info h1, .booking_form h1 {
+    font-weight: normal;
+    margin: 0 0 10px;
+    color: #082B63;
+}
+
+.contact_info p {
+    line-height: 1.5;
+}
+
+.booking_form {
+    float: right;
+    width: 570px;
+}
+
+.booking_form input, .booking_form select {
+    margin: 5px 0 12px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    width: 95%;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.booking_form button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 98%;
+    background: #082B63;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    text-transform: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.booking_form button:hover {
+    background: #fff;
+    color: #082B63;
+    border: 2px solid #082B63;
+}
+
+#result {
+    color: #1265df;
+    font-weight: 500;
+}
+
+footer {
+    background: #082B63;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* ปรับเฉพาะหน้าจอขนาดเล็ก */
+@media screen and (max-width: 980px) {
+    .container {
+        width: 90%;
+    }
+    .info1_area img {
+        width: 42%;
+    }
+    .info1_text {
+        width: 48%;
+        margin-left: 5%;
+    }
+    .booking_form {
+        width: 60%;
+    }
+    .contact_info {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .menubar {
+        height: auto;
+        min-height: 50px;
+        overflow: auto;
+    }
+    .menubar .logo, .menubar ul.menu {
+        float: none;
+        text-align: center;
+    }
+    .menubar ul.menu {
+        padding: 8px 0 12px;
+        margin: 0;
+    }
+    .menubar ul.menu li {
+        display: inline-block;
+        float: none;
+        margin: 0 8px;
+    }
+    .menubar ul.menu li a {
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+    .header {
+        height: 390px;
+    }
+    .header_area {
+        width: 100%;
+        padding-top: 75px;
+    }
+    .header_area h1 {
+        font-size: 42px;
+    }
+    .header_area p {
+        width: 90%;
+        font-size: 14px;
+    }
+    .info1 {
+        height: auto;
+        padding-bottom: 35px;
+    }
+    .info1_area img, .info1_text {
+        float: none;
+        width: 100%;
+        margin: 25px 0 0;
+    }
+    .info1_text {
+        text-align: center;
+    }
+    .info2_text {
+        width: 90%;
+        left: 5%;
+    }
+    .contact_info, .booking_form {
+        float: none;
+        width: 100%;
+    }
+    .contact_info {
+        border-right: 0;
+        border-bottom: 2px solid #082B63;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+        min-height: auto;
+    }
+    .booking_form input, .booking_form select {
+        width: 92%;
+    }
+    .booking_form button {
+        width: 98%;
+    }
+}

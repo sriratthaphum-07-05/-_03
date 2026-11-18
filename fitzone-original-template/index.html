@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITZONE | ระบบจองคิวเข้าใช้ยิม</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="menubar">
+        <div class="container">
+            <div class="logo">
+                <h1>FITZONE</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header_area">
+                <h1>Welcome to <br>FITZONE</h1>
+                <p lang="th">ฟิตเนสสำหรับคนรักสุขภาพ จองคิวเข้าใช้บริการได้ง่าย ๆ เลือกวันและเวลาที่สะดวก แล้วมาเริ่มต้นดูแลสุขภาพไปด้วยกัน</p>
+                <a class="hero_button" href="#booking">จองคิวเข้าใช้บริการ</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="info1" id="about">
+        <div class="container">
+            <div class="info1_area">
+                <img src="./img/gym-equipment.jpg" alt="อุปกรณ์ออกกำลังกายในยิม">
+                <div class="info1_text">
+                    <h1>Fitness Without Limits</h1>
+                    <p><span>FITZONE</span> <span lang="th">ให้บริการพื้นที่ออกกำลังกายพร้อมอุปกรณ์ที่ครบครัน ช่วยให้คุณออกกำลังกายได้อย่างสะดวกสบายและมีพื้นที่สำหรับพัฒนาสุขภาพของคุณ</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info2">
+        <div class="container">
+            <div class="info2_area">
+                <div class="info2_text">
+                    <h1>Gym Services</h1>
+                    <p lang="th">
+                        จองคิวเข้าใช้บริการล่วงหน้าได้ง่าย ๆ
+                        เลือกวันและช่วงเวลาที่ต้องการ พร้อมเตรียมตัวออกกำลังกายได้ทันที
+                    </p>
+                    <a class="hero_button" href="#booking">จองคิวเลย</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <section class="contact" id="booking">
+        <div class="container">
+            <div class="contact_area">
+                <div class="contact_info" id="contact">
+                    <h1>Contact Us</h1>
+                    <p lang="th">สอบถามข้อมูลเพิ่มเติมเกี่ยวกับการเข้าใช้บริการยิมได้ที่</p>
+                    <p>☎ 098-123-4567</p>
+                    <p>✉ fitzone@gym.com</p>
+                    <p lang="th">เวลาเปิดบริการ 06:00 - 21:00 น.</p>
+                </div>
+
+                <div class="booking_form">
+                    <h1 lang="th">จองคิวเข้าใช้บริการ</h1>
+                    <form id="bookingForm">
+                        <label for="name" lang="th">ชื่อ-นามสกุล</label><br>
+                        <input type="text" id="name" name="name" placeholder="กรอกชื่อ-นามสกุล" required><br>
+
+                        <label for="date" lang="th">วันที่ต้องการเข้าใช้</label><br>
+                        <input type="date" id="date" name="date" required><br>
+
+                        <label for="time" lang="th">เลือกช่วงเวลา</label><br>
+                        <select id="time" name="time" required>
+                            <option value="">-- เลือกช่วงเวลา --</option>
+                            <option>06:00 - 08:00 น.</option>
+                            <option>08:00 - 10:00 น.</option>
+                            <option>10:00 - 12:00 น.</option>
+                            <option>12:00 - 14:00 น.</option>
+                            <option>14:00 - 16:00 น.</option>
+                            <option>16:00 - 18:00 น.</option>
+                            <option>18:00 - 20:00 น.</option>
+                            <option>20:00 - 21:00 น.</option>
+                        </select><br>
+
+                        <label for="people" lang="th">จำนวนผู้เข้าใช้บริการ</label><br>
+                        <select id="people" name="people" required>
+                            <option value="">-- เลือกจำนวนคน --</option>
+                            <option value="1">1 คน</option>
+                            <option value="2">2 คน</option>
+                            <option value="3">3 คน</option>
+                            <option value="4">4 คน</option>
+                        </select><br>
+
+                        <button type="submit" lang="th">ยืนยันการจอง</button>
+                        <p id="result" lang="th"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>FITZONE</h2>
+        <p>Copyright &copy; 2026 | FITZONE Gym</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
